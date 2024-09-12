@@ -1,0 +1,25 @@
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  h2 {
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.5px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    &::after {
+      content: "";
+      width: 120px;
+      background-color: #cda45e;
+      height: 1px;
+      display: inline-block;
+      margin: 4px 10px;
+    }
+  }
+  h1 {
+    font-size: 36px;
+    color: #cda45e;
+    font-weight: 600;
+  }
+}

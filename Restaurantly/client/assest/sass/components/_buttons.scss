@@ -1,0 +1,17 @@
+.btn {
+  padding: 10px 24px;
+  font-size: 14px;
+  color: #fff;
+  border: 1px solid #cda45e;
+  border-radius: 20px;
+  background-color: transparent;
+  text-transform: uppercase;
+  transition: all 0.5s;
+  @media only screen and (max-width: 767px) {
+    font-size: 10px;
+  }
+  &:hover {
+    background-color: #cda45e;
+    color: #fff;
+  }
+}

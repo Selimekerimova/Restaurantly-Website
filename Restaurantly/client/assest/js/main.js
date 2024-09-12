@@ -3,7 +3,7 @@ let menuCards=document.querySelector(".menu-cards")
 let checkLinks=document.querySelectorAll(".check-link")
 let checkLists=document.querySelectorAll(".specials-content ul li")
 let menuArr;
-const BASE_URL="http://localhost:8080";
+const BASE_URL="https://restaurantly-backend.onrender.com";
 
 // swiper
 document.addEventListener("DOMContentLoaded", function () {
